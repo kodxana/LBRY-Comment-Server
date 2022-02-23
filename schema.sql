@@ -1,4 +1,4 @@
-CREATE DATABASE commentron;
+CREATE DATABASE IF NOT EXISTS commentron;
 CREATE DATABASE social;
 CREATE USER 'lbry-rw'@'localhost' IDENTIFIED BY 'lbry';
 CREATE USER 'lbry-rw'@'%' IDENTIFIED BY 'lbry';
